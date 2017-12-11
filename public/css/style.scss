@@ -6,10 +6,22 @@ body {
   padding-bottom: 20px;
 }
 
+/**
+ * Main wrapper
+ */
+.main-layout {
+  padding: 1rem;
+}
+
+/**
+ * Header section
+ */
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 200px;
+  padding-top: 1rem;
 
   .logo {
     display: flex;
@@ -29,10 +41,22 @@ body {
   }
 }
 
-.main-layout {
-  padding: 1rem;
+@media(min-width: 600px) {
+  .header {
+    .logo {
+      flex: 0;
+    }
+
+    .title {
+      display: block;
+      font-size: 4rem;
+    }
+  }
 }
 
+/**
+ * Nav section
+ */
 .nav {
   background-color: white;
   border-top: 1px solid #ccc;
@@ -67,6 +91,9 @@ body {
   }
 }
 
+/**
+ * About section
+ */
 .about {
   line-height: 1.7;
 
@@ -76,5 +103,23 @@ body {
     &.redpine {
       font-size: 1.25rem;
     }
+  }
+
+  .logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    img {
+      align-self: center;
+      margin: 1rem;
+      max-width: 100px;
+      width: auto;
+      height: auto;
+    }
+  }
+
+  h1 {
+    font-style: italic;
   }
 }

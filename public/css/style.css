@@ -5,10 +5,21 @@ body {
   margin: 0;
   padding-bottom: 20px; }
 
+/**
+ * Main wrapper
+ */
+.main-layout {
+  padding: 1rem; }
+
+/**
+ * Header section
+ */
 .header {
   display: flex;
   justify-content: space-between;
-  height: 200px; }
+  align-items: center;
+  height: 200px;
+  padding-top: 1rem; }
   .header .logo {
     display: flex;
     justify-content: center;
@@ -21,9 +32,16 @@ body {
     flex: 1;
     font-size: 8rem; }
 
-.main-layout {
-  padding: 1rem; }
+@media (min-width: 600px) {
+  .header .logo {
+    flex: 0; }
+  .header .title {
+    display: block;
+    font-size: 4rem; } }
 
+/**
+ * Nav section
+ */
 .nav {
   background-color: white;
   border-top: 1px solid #ccc;
@@ -49,9 +67,24 @@ body {
     .nav li.active a {
       font-weight: bold; }
 
+/**
+ * About section
+ */
 .about {
   line-height: 1.7; }
   .about strong {
     font-style: italic; }
     .about strong.redpine {
       font-size: 1.25rem; }
+  .about .logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .about .logos img {
+      align-self: center;
+      margin: 1rem;
+      max-width: 100px;
+      width: auto;
+      height: auto; }
+  .about h1 {
+    font-style: italic; }
