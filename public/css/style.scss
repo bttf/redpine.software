@@ -123,3 +123,70 @@ body {
     font-style: italic;
   }
 }
+
+/**
+ * portfolio section
+ */
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  h2 {
+    flex: 1 100%;
+    color: #555;
+    font-style: italic;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .item {
+    flex: 1 100%;
+    max-width: 500px;
+    margin: 0 auto;
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+
+      img {
+        align-self: center;
+        max-width: 400px;
+        height: auto;
+        width: 100%;
+      }
+    }
+
+    .quartzy-logo a img {
+      max-height: 150px;
+    }
+
+    .title,
+    .description {
+      padding-left: 1rem;
+    }
+
+    .title {
+      font-size: 3rem;
+    }
+
+    .description {
+      line-height: 1.5;
+      letter-spacing: 0.25px;
+    }
+  }
+}
+
+/**
+ * contact section
+ */
+.contact {
+  h2 {
+    color: #555;
+    font-style: italic;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+}

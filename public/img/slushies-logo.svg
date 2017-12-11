@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="290px" height="128px" viewBox="0 0 290 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="78.0254186%" y1="10.9295512%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FBFF00" offset="0%"></stop>
+            <stop stop-color="#FF00D4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-56.2483837%" y1="87.5911142%" x2="64.4239591%" y2="38.5632686%" id="linearGradient-2">
+            <stop stop-color="#BFBFBF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M6.08661417,64.503937 C19.4485557,64.503937 29.3536174,64.503937 35.8017993,64.503937 C42.2499812,64.503937 52.1550429,64.503937 65.5169844,64.503937 L56.4839812,128 L15.8282269,128 L6.08661417,64.503937 Z" id="path-3"></path>
+        <linearGradient x1="0%" y1="39.5175666%" x2="304.917701%" y2="39.5175666%" id="linearGradient-4">
+            <stop stop-color="#F5515F" offset="0%"></stop>
+            <stop stop-color="#9F041B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-56.2483837%" y1="87.5911142%" x2="64.4239591%" y2="38.5632686%" id="linearGradient-5">
+            <stop stop-color="#2EF7FF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <text id="text-6" font-family="SignPainter-HouseScriptSemibold, SignPainter" font-size="72" font-style="italic" font-weight="500" fill="#C755E8">
+            <tspan x="177.139028" y="98">Slushi.es</tspan>
+        </text>
+        <filter x="-0.3%" y="-2.3%" width="100.9%" height="109.4%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="2" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.565953351 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(-89.000000, -1.000000)">
+            <g id="slushie" transform="translate(90.000000, 0.000000)">
+                <g id="Group">
+                    <path d="M17.9700668,66.449993 C9.09382144,64.6532176 4.40716038,62.3030855 3.91008355,59.3995968 C3.16446832,55.0443636 8.0744522,51.9019873 12.3244686,49.6178622 C15.1578128,48.0951121 19.9701023,47.1961885 26.7613371,46.9210916 C23.8628539,44.5905003 23.0362668,42.4404135 24.2815757,40.4708313 C26.149539,37.5164579 30.0582681,36.8149354 32.51592,35.87139 C34.9735718,34.9278445 39.0247536,35.0964945 39.0247536,33.4564432 C39.0247536,32.3630757 36.8551424,30.9509159 32.51592,29.2199641 C40.8785743,29.3974132 46.8815333,30.8095729 50.5247972,33.4564432 C54.115145,36.0648695 58.0698576,40.6934466 54.4775321,46.6997615 C53.4154682,48.4755166 58.7342958,48.8796747 59.4269726,49.6178622 C61.2659223,51.5776354 62.241681,51.5427391 63.3000095,53.0808862 C66.1316906,57.196378 66.7724459,61.124455 65.2222754,64.8651174 L39.0247536,67.7722123 L17.9700668,66.449993 Z" id="Path-2" fill="url(#linearGradient-1)"></path>
+                    <g id="Rectangle">
+                        <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        <path stroke="#EFEFEF" stroke-width="1" d="M5.50405355,64.003937 L66.0931491,64.003937 L56.9178849,128.5 L15.399087,128.5 L5.50405355,64.003937 Z"></path>
+                    </g>
+                    <path d="M48.4922393,1.00347246 C49.1416965,0.573147134 49.8920579,0.357984469 50.7433234,0.357984469 C51.594589,0.357984469 52.3636196,0.573147134 53.0504153,1.00347246 L53.0504153,53.4129213 C51.9908767,53.8658772 51.2010542,54.0923551 50.6809479,54.0923551 C50.1608417,54.0923551 49.4312721,53.8658772 48.4922393,53.4129213 L48.4922393,1.00347246 Z" id="Rectangle-3" fill="url(#linearGradient-4)" transform="translate(50.771327, 27.225170) rotate(16.000000) translate(-50.771327, -27.225170) "></path>
+                    <g id="LID" transform="translate(0.000000, 19.149606)" stroke="#E3F6FF" stroke-linecap="square" fill="url(#linearGradient-5)">
+                        <path d="M2.19372801,40.7950222 C2.06850287,39.5254517 2.19372801,38.0920386 2.19372801,36.7874016 C2.19372801,16.4702807 16.6150437,0 35.8188976,0 C55.0227516,0 68.8465161,16.4702807 68.8465161,36.7874016 C68.8465161,38.1416115 68.9813092,39.4787311 68.8465161,40.7950222 L70.6371633,40.7950222 L70.6371633,40.7950222 C71.189448,40.7950222 71.6371633,41.2427375 71.6371633,41.7950222 C71.6371633,41.8818643 71.6258512,41.9683364 71.6035124,42.0522561 L69.0442341,51.6666827 L69.0442341,51.6666827 C68.9276516,52.1046473 68.5311006,52.4094488 68.0778849,52.4094488 L4.35550121,52.4094488 L4.35550121,52.4094488 C3.92860533,52.4094488 3.54878279,52.1384519 3.4099007,51.7347789 L0.102095182,42.1203524 L0.102095182,42.1203524 C-0.0775796826,41.5981116 0.200124827,41.0290966 0.722365564,40.8494217 C0.827050126,40.8134054 0.936988721,40.7950222 1.04769569,40.7950222 L2.19372801,40.7950222 Z" id="Oval"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="Slushi.es" fill-opacity="1" fill="#C755E8">
+                <use filter="url(#filter-7)" xlink:href="#text-6"></use>
+                <use xlink:href="#text-6"></use>
+            </g>
+        </g>
+    </g>
+</svg>
