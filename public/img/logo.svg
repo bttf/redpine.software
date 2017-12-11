@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="631px" height="631px" viewBox="0 0 631 631" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="9.96438178%" y1="65.021408%" x2="103.404037%" y2="163.625923%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#E1F2FC" offset="15.5200082%"></stop>
+            <stop stop-color="#3CACE9" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="244.5" cy="244.5" r="244.5"></circle>
+        <filter x="-20.4%" y="-20.4%" width="142.5%" height="142.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="18" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="4" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="57.8372432%" x2="50%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#6A5A3A" offset="0%"></stop>
+            <stop stop-color="#1A0000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.4404485%" y1="34.5291226%" x2="50.4404496%" y2="97.6651144%" id="linearGradient-5">
+            <stop stop-color="#FF0000" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#5D0000" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M197.067716,50.8330893 C208.075586,50.8330893 219.083455,202.061047 219.083455,248.412346 C219.083455,279.313212 219.083455,303.186988 219.083455,320.033675 L175.051977,320.033675 C175.051977,300.340612 175.051977,276.466836 175.051977,248.412346 C175.051977,206.330611 186.059846,50.8330893 197.067716,50.8330893 Z" id="path-6"></path>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#B9C76C" offset="0%"></stop>
+            <stop stop-color="#83953A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#156D07" offset="0%"></stop>
+            <stop stop-color="#093B03" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(67.000000, 67.000000)">
+            <g id="logo">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use stroke="#FFFFFF" stroke-width="24" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="Group-2" transform="translate(47.611274, 84.483163)">
+                    <g id="Rectangle">
+                        <use fill="url(#linearGradient-4)" xlink:href="#path-6"></use>
+                        <use fill="url(#linearGradient-5)" xlink:href="#path-6"></use>
+                    </g>
+                    <polygon id="Triangle" fill="url(#linearGradient-7)" points="147.587158 67.4050714 295.174316 201.97237 0 201.97237"></polygon>
+                    <polygon id="Triangle" fill="url(#linearGradient-7)" points="245.977383 67.4050714 393.563817 201.97237 98.3909488 201.97237"></polygon>
+                    <polygon id="Triangle" fill="url(#linearGradient-8)" points="196.987605 11.8133236 344.574039 146.380829 49.4011713 146.380829"></polygon>
+                    <polygon id="Triangle" fill="url(#linearGradient-7)" points="197.114255 0 308.671409 101.71595 85.557101 101.71595"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
