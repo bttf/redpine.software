@@ -3,20 +3,29 @@ body {
   font-family: Helvetica, sans-serif;
   font-size: 100%;
   margin: 0;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 /**
  * Main wrapper
  */
 .main-layout {
-  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media(min-width: 800px) {
+  .main-layout {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /**
  * Header section
  */
 .header {
+  flex: 1 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -91,10 +100,25 @@ body {
   }
 }
 
+@media(min-width: 800px) {
+  .nav {
+    flex: 0 200px;
+    position: static;
+    border: none;
+
+    ul,
+    li {
+      display: block;
+    }
+  }
+}
+
 /**
  * About section
  */
 .about {
+  flex: 1;
+  padding: 0 1rem 1rem;
   line-height: 1.7;
 
   strong {
@@ -121,6 +145,7 @@ body {
 
   h1 {
     font-style: italic;
+    color: #555;
   }
 }
 
@@ -128,9 +153,11 @@ body {
  * portfolio section
  */
 .portfolio {
+  flex: 1;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0 1rem 1rem;
 
   h2 {
     flex: 1 100%;
@@ -138,6 +165,7 @@ body {
     font-style: italic;
     padding-bottom: 1rem;
     border-bottom: 1px solid #ccc;
+    margin-top: 1rem;
   }
 
   .item {
@@ -155,7 +183,7 @@ body {
         align-self: center;
         max-width: 400px;
         height: auto;
-        width: auto;
+        width: 100%;
       }
     }
 
@@ -183,10 +211,22 @@ body {
  * contact section
  */
 .contact {
+  flex: 1;
+  padding: 0 1rem 1rem;
+
   h2 {
     color: #555;
     font-style: italic;
+    margin-top: 1rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid #ccc;
   }
+}
+
+/**
+ * copyright
+ */
+.copyright {
+  font-size: .8rem;
+  text-align: center;
 }
