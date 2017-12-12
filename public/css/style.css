@@ -5,6 +5,10 @@ body {
   margin: 0;
   padding-bottom: 40px; }
 
+@media (min-width: 800px) {
+  body {
+    padding-bottom: 0; } }
+
 /**
  * Main wrapper
  */
