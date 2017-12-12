@@ -44,8 +44,12 @@ body {
     flex: 1;
     height: 100%;
 
-    img {
-      height: 100%;
+    a {
+      max-width: 200px;
+
+      img {
+        height: 100%;
+      }
     }
   }
 
