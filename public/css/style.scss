@@ -53,6 +53,7 @@ body {
     display: none;
     flex: 1;
     font-size: 8rem;
+    padding-left: 1rem;
   }
 }
 
@@ -75,6 +76,8 @@ body {
 .nav {
   background-color: white;
   border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 1rem;
   position: fixed;
   bottom: 0;
   font-size: 1.25rem;
