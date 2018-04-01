@@ -99,6 +99,8 @@ body {
   flex: 1;
   padding: 0 1rem 1rem;
   line-height: 1.7; }
+  .about p {
+    margin-top: 0.5rem; }
   .about strong {
     font-style: italic; }
     .about strong.redpine {
